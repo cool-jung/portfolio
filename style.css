@@ -466,7 +466,7 @@ a:active {
  *****************/
 
 #welcome-section {
-  background: url(./background.png) no-repeat;
+  background: url(img/background.png) no-repeat;
   /* background: linear-gradient(#f72648, #fccb3c); */
   /* background: linear-gradient(#3ca3fc, #ffd300); */
   /* background: linear-gradient(to bottom, #181d23 0%, #202736 80%); */
@@ -864,7 +864,7 @@ a:active {
 }
 
 #about .desc .profile-img {
-  background: url(profile.png) no-repeat;
+  background: url(img/profile.png) no-repeat;
   width: 10rem;
   height: 10rem;
   background-size: 100%;
@@ -1512,73 +1512,73 @@ footer .wrapper {
 }
 
 #carousel__slide1 {
-  background-image: url(./banner1.jpg);
+  background-image: url(img/banner1.jpg);
 }
 #carousel__slide2 {
-  background-image: url(./banner2.jpg);
+  background-image: url(img/banner2.jpg);
 }
 #carousel__slide3 {
-  background-image: url(./banner3.jpg);
+  background-image: url(img/banner3.jpg);
 }
 #carousel__slide4 {
-  background-image: url(./banner4.png);
+  background-image: url(img/banner4.png);
 }
 #carousel__slide5 {
-  background-image: url(./banner5.jpg);
+  background-image: url(img/banner5.jpg);
 }
 #carousel__slide6 {
-  background-image: url(./banner6.jpg);
+  background-image: url(img/banner6.jpg);
 }
 #carousel__slide7 {
-  background-image: url(./banner7.jpg);
+  background-image: url(img/banner7.jpg);
 }
 #carousel__slide8 {
-  background-image: url(./banner8.jpg);
+  background-image: url(img/banner8.jpg);
 }
 #carousel__slide9 {
-  background-image: url(./banner9.jpg);
+  background-image: url(img/banner9.jpg);
 }
 #carousel__slide10 {
-  background-image: url(./banner10.jpg);
+  background-image: url(img/banner10.jpg);
 }
 #carousel__slide11 {
-  background-image: url(./banner11.png);
+  background-image: url(img/banner11.png);
 }
 #carousel__slide12 {
-  background-image: url(./banner12.jpg);
+  background-image: url(img/banner12.jpg);
 }
 #carousel__slide13 {
-  background-image: url(./banner13.jpg);
+  background-image: url(img/banner13.jpg);
 }
 #carousel__slide14 {
-  background-image: url(./banner14.jpg);
+  background-image: url(img/banner14.jpg);
 }
 #carousel__slide15 {
-  background-image: url(./banner15.jpg);
+  background-image: url(img/banner15.jpg);
 }
 #carousel__slide16 {
-  background-image: url(./banner16.jpg);
+  background-image: url(img/banner16.jpg);
 }
 #carousel__slide17 {
-  background-image: url(./banner17.jpg);
+  background-image: url(img/banner17.jpg);
 }
 #carousel__slide18 {
-  background-image: url(./banner18.jpg);
+  background-image: url(img/banner18.jpg);
 }
 #carousel__slide19 {
-  background-image: url(./banner19.jpg);
+  background-image: url(img/banner19.jpg);
 }
 #carousel__slide20 {
-  background-image: url(./banner20.png);
+  background-image: url(img/banner20.png);
 }
 #carousel__slide21 {
-  background-image: url(./banner21.jpg);
+  background-image: url(img/banner21.jpg);
 }
 #carousel__slide22 {
-  background-image: url(./banner22.jpg);
+  background-image: url(img/banner22.jpg);
 }
 #carousel__slide23 {
-  background-image: url(./banner23.jpg);
+  background-image: url(img/banner23.jpg);
 }
 
 .carousel__snapper {

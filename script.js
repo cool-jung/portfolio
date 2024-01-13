@@ -1151,7 +1151,7 @@ const Contact = (props) => {
 
         " ",
         React.createElement("img", {
-          src: "kakaoopenchat.png",
+          src: "img/kakaoopenchat.png",
         })
       )
     )
