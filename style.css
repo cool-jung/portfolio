@@ -724,10 +724,19 @@ a:active {
 }
 
 @media only screen and (max-width: 649px) {
-  #welcome-section .container {
+  /* #welcome-section .container {
     right: 50%;
     top: 10%;
     width: 80%;
+    transform: translate(50%, 0);
+    -webkit-animation: text-fade-in 1000ms 800ms forwards;
+    animation: text-fade-in 1000ms 800ms forwards;
+  } */
+
+  #welcome-section .container {
+    left: 0;
+    top: 30%;
+    width: 60%;
     transform: translate(50%, 0);
     -webkit-animation: text-fade-in 1000ms 800ms forwards;
     animation: text-fade-in 1000ms 800ms forwards;
@@ -905,8 +914,27 @@ a:active {
   }
 }
 @media only screen and (max-width: 649px) {
+  #welcome-section .container h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
   #about .wrapper {
     padding: 10rem 2rem 8rem;
+  }
+
+  #about .wrapper .button,
+  #projects .projects-container .button {
+    width: 50% !important;
+  }
+
+  .carousel {
+    min-width: 300px !important;
+    height: 300px !important;
+  }
+
+  #contact .container a img {
+    width: 50%;
   }
 }
 

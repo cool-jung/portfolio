@@ -966,7 +966,7 @@ const Projects = (props) => {
             title: "Cruise renewal site",
             img: "img/renewal_cruise.png",
             tech: "js node css",
-            link: "",
+            link: "http://jcool486.dothome.co.kr/cruiseRenewalPage/",
             repo: "",
           },
 
@@ -1034,7 +1034,7 @@ const Projects = (props) => {
             img: "img/morocco.jpg",
             tech: "js css",
             link: "https://cool-jung.github.io/morocco/",
-            repo: "https://drive.google.com/file/d/1YZTFGtpuDvPE3V3k79wyPTroJ5A0J27S/view?usp=sharing",
+            repo: "https://cool-jung.github.io/morocco-proposal/",
           },
 
           React.createElement(
