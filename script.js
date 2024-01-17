@@ -978,8 +978,7 @@ const Projects = (props) => {
           React.createElement(
             "p",
             null,
-            `TMK의 크루즈 사이트의 리뉴얼을 목표로 wordpress template을 활용해 제작한 크루즈 예약 사이트입니다.
-            로그인 모달과 반응형도 고려해 제작하였습니다.`
+            `TMK의 크루즈 사이트의 리뉴얼을 목표로 wordpress template을 활용하고 반응형을 고려해 제작한 크루즈 예약 사이트입니다.`
           )
         ),
 
