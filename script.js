@@ -944,8 +944,8 @@ const Projects = (props) => {
         //     title: "random excuse generator",
         //     img: "work9.png",
         //     tech: "react node css",
-        //     link: "https://yagoestevez-issue-tracker.glitch.me/",
-        //     repo: "https://github.com/yagoestevez/fcc-issue-tracker",
+        //     link: "",
+        //     repo: "",
         //   },
 
         //   React.createElement(
@@ -966,8 +966,8 @@ const Projects = (props) => {
             title: "Cruise renewal site",
             img: "img/renewal_cruise.png",
             tech: "js node css",
-            link: "https://yagoestevez-metric-imperial-converter.glitch.me/",
-            repo: "https://github.com/yagoestevez/fcc-metric-imperial-converter/",
+            link: "",
+            repo: "",
           },
 
           React.createElement(
@@ -978,7 +978,8 @@ const Projects = (props) => {
           React.createElement(
             "p",
             null,
-            "TMK의 크루즈 사이트의 리뉴얼을 목표로 wordpress template을 활용해 제작한 크루즈 예약 사이트입니다."
+            `TMK의 크루즈 사이트의 리뉴얼을 목표로 wordpress template을 활용해 제작한 크루즈 예약 사이트입니다.
+            로그인 모달과 반응형도 고려해 제작하였습니다.`
           )
         ),
 
@@ -988,8 +989,8 @@ const Projects = (props) => {
         //     title: "Cat meme maker.",
         //     img: "work11.png",
         //     tech: "react js node css",
-        //     link: "https://cortala.glitch.me/example",
-        //     repo: "https://github.com/yagoestevez/cortala",
+        //     link: "",
+        //     repo: "",
         //   },
 
         //   React.createElement(
@@ -1004,27 +1005,27 @@ const Projects = (props) => {
         //   )
         // ),
 
-        React.createElement(
-          Project,
-          {
-            title: "cocacola.",
-            img: "img/cocacola.jpg",
-            tech: "js css",
-            link: "https://yagoestevez-exercise-tracker.glitch.me",
-            repo: "https://drive.google.com/file/d/14HsJ8hSkzWP_aTEMsOIOyTCEpMlFADfN/view?usp=sharing",
-          },
+        // React.createElement(
+        //   Project,
+        //   {
+        //     title: "cocacola.",
+        //     img: "img/cocacola.jpg",
+        //     tech: "js css",
+        //     link: "",
+        //     repo: "https://drive.google.com/file/d/14HsJ8hSkzWP_aTEMsOIOyTCEpMlFADfN/view?usp=sharing",
+        //   },
 
-          React.createElement(
-            "small",
-            null,
-            "HTML, CSS, Bootstrap, JS + jQuery를 사용하였습니다."
-          ),
-          React.createElement(
-            "p",
-            null,
-            "코카콜라 사이트를 리디자인하여 와이어프레임, 프로토타입 부터 디자인하고 퍼블리싱하였습니다."
-          )
-        ),
+        //   React.createElement(
+        //     "small",
+        //     null,
+        //     "HTML, CSS, Bootstrap, JS + jQuery를 사용하였습니다."
+        //   ),
+        //   React.createElement(
+        //     "p",
+        //     null,
+        //     "코카콜라 사이트를 리디자인하여 와이어프레임, 프로토타입 부터 디자인하고 퍼블리싱하였습니다."
+        //   )
+        // ),
 
         React.createElement(
           Project,
@@ -1032,7 +1033,7 @@ const Projects = (props) => {
             title: "morocco",
             img: "img/morocco.jpg",
             tech: "js css",
-            link: "https://codepen.io/yagoestevez/full/wxjmrB/",
+            link: "https://cool-jung.github.io/morocco/",
             repo: "https://drive.google.com/file/d/1YZTFGtpuDvPE3V3k79wyPTroJ5A0J27S/view?usp=sharing",
           },
 
@@ -1048,14 +1049,35 @@ const Projects = (props) => {
           )
         ),
 
+        // React.createElement(
+        //   Project,
+        //   {
+        //     title: "innisfree",
+        //     img: "img/innisfree.jpg",
+        //     tech: "js css",
+        //     link: "",
+        //     repo: "https://drive.google.com/file/d/1yFkAaqRkJ-RwfjZJbhmI9KI6jzy6gsR6/view?usp=drive_link",
+        //   },
+
+        //   React.createElement(
+        //     "small",
+        //     null,
+        //     "HTML, CSS, JS + jQuery를 사용하였습니다."
+        //   ),
+        //   React.createElement(
+        //     "p",
+        //     null,
+        //     "A treemap diagram representing groups of pledges and sales from a particular category."
+        //   )
+        // ),
+
         React.createElement(
           Project,
           {
-            title: "innisfree",
-            img: "img/innisfree.jpg",
+            title: "starbucks",
+            img: "img/starbucks.jpg",
             tech: "js css",
-            link: "https://codepen.io/yagoestevez/full/bjZygz/",
-            repo: "https://drive.google.com/file/d/1yFkAaqRkJ-RwfjZJbhmI9KI6jzy6gsR6/view?usp=drive_link",
+            link: "https://cool-jung.github.io/starbucks/",
           },
 
           React.createElement(
@@ -1066,7 +1088,7 @@ const Projects = (props) => {
           React.createElement(
             "p",
             null,
-            "A treemap diagram representing groups of pledges and sales from a particular category."
+            "웹 접근성, 시멘틱 페이지, HTML5 문법을 준수하여 HTML5, CSS3 웹 표준 마크업하였습니다."
           )
         ),
 
@@ -1076,7 +1098,7 @@ const Projects = (props) => {
             title: "topcit",
             img: "img/topcit.jpg",
             tech: "js css",
-            link: "https://codepen.io/yagoestevez/full/NBeaWK/",
+            link: "https://cool-jung.github.io/topcit/",
           },
 
           React.createElement(

@@ -1,5 +1,3 @@
-/* Made by Yago Estévez (Twitter: @yagoestevez.com) */
-
 *,
 *::before,
 *::after,
@@ -127,12 +125,11 @@ a:active {
 }
 
 .menu-container::before {
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true);
+  background: url(img/Stars.svg);
 }
 
 .menu-container::after {
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true)
-    bottom repeat-x;
+  background: url(img/Trees.svg) bottom repeat-x;
 }
 
 .menu-container.deactive {
@@ -481,7 +478,7 @@ a:active {
 #welcome-section::before {
   content: "";
   position: fixed;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true);
+  background: url(img/Stars.svg);
   background-attachment: fixed;
   width: 100%;
   min-height: 100vh;
@@ -515,8 +512,7 @@ a:active {
   position: absolute;
   bottom: -300px;
   left: 0;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true)
-    bottom left repeat-x;
+  background: url(img/Trees.svg) bottom left repeat-x;
   background-size: cover;
   width: 100%;
   height: 80%;
@@ -583,8 +579,7 @@ a:active {
   top: 0;
   right: 0;
   position: fixed;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true)
-    right 150% no-repeat;
+  background: url(img/Moon.svg) right 150% no-repeat;
   background-size: 40% 40%;
   background-attachment: fixed;
   width: 100%;
@@ -779,12 +774,7 @@ a:active {
   -webkit-clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
-  /* background: #fafafa
-    url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Author_BG.jpg)
-    center right no-repeat; */
-  /* background: #fafafa url(./1profile.png) center right no-repeat; */
-  background: #202736
-    url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true);
+  background: #202736 url(img/Stars.svg);
   background-attachment: fixed;
 }
 
@@ -1170,28 +1160,15 @@ a:active {
 
 #projects .project:nth-of-type(4) .project-details .buttons a:nth-of-type(1),
 #projects .project:nth-of-type(5) .project-details .buttons a:nth-of-type(1),
-#projects .project:nth-of-type(6) .project-details .buttons a:nth-of-type(1),
 #projects .project:nth-of-type(7) .project-details .buttons a:nth-of-type(1),
-#projects .project:nth-of-type(11) .project-details .buttons a:nth-of-type(1) {
+#projects .project:nth-of-type(8) .project-details .buttons a:nth-of-type(1) {
   display: none;
 }
-#projects .project:nth-of-type(8) .project-details .buttons a:nth-of-type(1),
-#projects .project:nth-of-type(9) .project-details .buttons a:nth-of-type(1),
-#projects .project:nth-of-type(10) .project-details .buttons a:nth-of-type(1) {
+#projects .project:nth-of-type(6) .project-details .buttons a:nth-of-type(1) {
   font-size: 0;
 }
 #projects
-  .project:nth-of-type(8)
-  .project-details
-  .buttons
-  a:nth-of-type(1):before,
-#projects
-  .project:nth-of-type(9)
-  .project-details
-  .buttons
-  a:nth-of-type(1):before,
-#projects
-  .project:nth-of-type(10)
+  .project:nth-of-type(6)
   .project-details
   .buttons
   a:nth-of-type(1):before {
@@ -1252,9 +1229,7 @@ a:active {
  *****************/
 
 #contact {
-  background: #181d23
-    url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/envelope.svg?sanitize=true)
-    no-repeat right;
+  background: #181d23 url(img/envelope.svg) no-repeat right;
   -webkit-clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
   color: #fafafa;
