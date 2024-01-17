@@ -735,7 +735,7 @@ a:active {
 
   #welcome-section .container {
     left: 0;
-    top: 30%;
+    top: 20%;
     width: 60%;
     transform: translate(50%, 0);
     -webkit-animation: text-fade-in 1000ms 800ms forwards;
@@ -921,6 +921,14 @@ a:active {
 
   #about .wrapper {
     padding: 10rem 2rem 8rem;
+  }
+
+  #about .desc {
+    padding: 0 !important;
+  }
+
+  #about .desc .profile p {
+    font-size: 12px;
   }
 
   #about .wrapper .button,
