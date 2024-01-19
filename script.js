@@ -355,7 +355,7 @@ const About = (props) => {
                 React.createElement(
                   "li",
                   null,
-                  React.createElement("p", null, "2016.07 ~ 2016.07"),
+                  React.createElement("p", null, "2016.07 ~ 2017.07"),
                   React.createElement("p", null, "한솔교육 한글&수학 교사")
                 )
               ),
