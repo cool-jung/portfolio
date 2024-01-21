@@ -515,7 +515,7 @@ const About = (props) => {
           React.createElement(
             "a",
             {
-              href: "https://www.notion.so/c8cf045a9973472a82fc266352486994?pvs=4",
+              href: "https://maize-tortoise-86e.notion.site/c8cf045a9973472a82fc266352486994?pvs=4",
               className: "cta",
             },
             "View Resume"

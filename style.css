@@ -1289,6 +1289,7 @@ a:active {
 #contact .container .heading-wrapper {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 #contact .heading-wrapper .social a {
@@ -1313,7 +1314,7 @@ a:active {
 
 .heading-wrapper .heading .subtitle {
   font-size: 1.4rem;
-  line-height: 5rem;
+  line-height: 2rem;
 }
 
 #contact-form {
